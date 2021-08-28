@@ -64,10 +64,14 @@ i{
     font-size: 20px;
     cursor: pointer;
     color: #fff;
-    background-color: #5cb85c;
+    background-color: rgb(34, 241, 124);
     border: #fff;
     border-radius: 5px;
     margin-left: 70px;
+}
+
+.button:hover{
+    background-color: #5ee25e;
 }
 
 @media (max-width: 730px){
