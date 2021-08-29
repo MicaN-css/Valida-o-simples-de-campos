@@ -52,11 +52,35 @@ function cinza(){
     let cinza1 = document.getElementById('cinza')
     document.querySelector('ul').setAttribute('class','fundocinza')
     document.querySelector('ul ul').setAttribute('class','fundocinza')
-
 }
 
 function reset(){
     let reset1 = document.getElementById('reset')
     document.querySelector('ul').removeAttribute('class')
     document.querySelector('ul ul').removeAttribute('class')
+}
+
+function rakan(){
+    let rakan = document.getElementById('rakan')
+    document.querySelector('body').setAttribute('class','rakan')
+}
+
+function zed(){
+    let zed = document.getElementById('zed')
+    document.querySelector('body').setAttribute('class','zed')
+}
+
+function temo(){
+    let temo = document.getElementById('temo')
+    document.querySelector('body').setAttribute('class','temo')
+}
+
+function ahri(){
+    let ahri = document.getElementById('ahri')
+    document.querySelector('body').setAttribute('class','ahri')
+}
+
+function remove(){
+    let remove = document.getElementById('remove')
+    document.querySelector('body').removeAttribute('class')
 }

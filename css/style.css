@@ -1,8 +1,37 @@
 body{
+    background-color: rgb(8, 3, 3);
+}
+
+.rakan{
     background-image: url(../img/ultra-hd.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: cover; 
+}
+
+.temo{
+    background-image: url(../img/temo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.ahri{
+    background-image: url(../img/ahri.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.zed{
+    background-image: url(../img/zed.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.title{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Staatliches'; 
+    color: yellow;
 }
 
 .caixa {
@@ -124,7 +153,7 @@ i{
 .bloco{
     width: 100%;
     height: 100px;
-    background-color: #444;
+    
     margin-top: 20px;
     display: flex;
     justify-content: center;
