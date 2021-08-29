@@ -28,4 +28,35 @@ clicou.addEventListener('click', (event) =>{
 })
 
 
+function verde(){
+    let verde1 = document.getElementById('verde')
+    document.querySelector('ul').setAttribute('class','fundoverde')
+    document.querySelector('ul ul').setAttribute('class', 'fundoverde')
+    
+}
 
+function vermelho(){
+    let vermelho1 = document.getElementById('vermelho')
+    document.querySelector('ul').setAttribute('class', 'fundovermelho')
+    document.querySelector('ul ul').setAttribute('class', 'fundovermelho')
+
+}
+
+function rosa(){
+    let rosa1 = document.getElementById('rosa')
+    document.querySelector('ul').setAttribute('class','fundorosa')
+    document.querySelector('ul ul').setAttribute('class','fundorosa')
+}
+
+function cinza(){
+    let cinza1 = document.getElementById('cinza')
+    document.querySelector('ul').setAttribute('class','fundocinza')
+    document.querySelector('ul ul').setAttribute('class','fundocinza')
+
+}
+
+function reset(){
+    let reset1 = document.getElementById('reset')
+    document.querySelector('ul').removeAttribute('class')
+    document.querySelector('ul ul').removeAttribute('class')
+}
